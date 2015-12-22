@@ -2,6 +2,7 @@
 
 define('ROOT', dirname(__DIR__).'/www');
 
+
 require ROOT . '/app/App.php';
 
 App::load();

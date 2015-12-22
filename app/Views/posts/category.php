@@ -1,4 +1,5 @@
 <h1><?= $categorie->titre; ?></h1>
+?= $categorie->titre; ?>
 
 	<div class="col-sm-8">
 

@@ -1,7 +1,8 @@
 <?php
 
-use Core\Config\Config;
+
 use Core\Database\MySqlDatabase;
+use Core\Config\Config;
 
 class App{
 
@@ -10,7 +11,7 @@ class App{
 	private static $db_instance;
 
 	public function __construct(){
-	
+
 	}
 
 	public static function getInstance(){
